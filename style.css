@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: width 0.2s;
+  transition: all 0.5s ease;
+}
+body{
+    --bg-color: #1f1c2c;
+    background-color: var(--bg-color);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    position: relative;
+}
+#copied{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    background-color: white;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 1rem;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    transition: all 0.8s ease;
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--bg-color);
+    z-index: 99;
+}
+
+#quote-box{
+    position: relative;
+    padding: 2rem;
+    width: 600px;
+    max-width: 100%;
+    background-color: #eee;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    color: var(--bg-color);
+}
+#quote-text i:first-child, #quote-text i:last-child{
+    display: block;
+    font-size: 2rem;
+    opacity: 0.5;
+}
+#quote-text{
+    font-size: 1.4rem;
+}
+#quote-text i:last-child {
+    padding: 1rem;
+}
+hr{
+    color: var(--bg-color);
+    width: 50%;
+    margin: auto;
+    opacity: 0.5;
+}
+#quote-author {
+    text-align: center;
+    font-size: 1.5rem;
+}
+#utils{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#tweet-quote, #copy-text{
+   padding: 0.5rem;
+   background-color: var(--bg-color);
+   border-radius: 10px;
+    box-shadow: 2px 2px 5px #222;
+   color: white;
+   margin: 0 10px;
+}
+#new-quote{
+    margin-left: auto;
+}
+#tweet-quote:hover, #copy-text:hover{
+    background-color: white;
+    color: var(--bg-color);
+}
+#new-quote{
+    font-size: large;
+    border: none;
+    cursor: pointer;
+    background-color: var(--bg-color);
+    border-radius: 10px;
+    color: white;
+    padding: 0 1rem;
+    box-shadow: 2px 2px 5px #222;
+}
+#new-quote:hover{
+    background-color: white;
+    color: var(--bg-color);
+}
+#new-quote:active{
+    transform: scale(0.98);
+}
+
+footer{
+    text-align: center;
+    color: white;
+}
+footer a{
+    color: white;
+    font-weight: 500;
+}
+
+@media(max-width: 800px) {
+    #quote-box{
+        width: 80vw;
+    }
+}
