@@ -22,6 +22,7 @@ main{
     opacity: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
     position: absolute;
     top: 1rem;
     width: 400px;
@@ -101,6 +102,9 @@ hr{
 }
 #new-quote:active{
     transform: scale(0.98);
+}
+#new-quote:focus{
+    outline: none;
 }
 
 footer{
