@@ -1,4 +1,4 @@
-# Qoutes Generator
+# Quotes Generator
 
 ##Sections
  - [DEMO](#demo)
