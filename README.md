@@ -7,8 +7,8 @@
  - [DETAILS](#details)
 
 ## Demo
-You can try the generator yourself: [here](https://chocotacove.github.io/quotes-generator)  or
-https://chocotacove.github.io/quotes-generator
+You can try the generator yourself: [here](https://vshalt.github.io/quotes-generator)  or
+https://vshalt.github.io/quotes-generator
 <div style="display: flex;flex-wrap:wrap; padding: 30px;">
 <img alt="demo" style="margin: 20px; padding: 20px;width: 600px" src="./img/demo1.png">
 <img alt="demo" style="margin: 20px; padding: 20px;width: 600px" src="./img/demo2.png">
